@@ -4,7 +4,7 @@ const MENU_ITEMS = [
     id: 1,
     name: "Semo and eguisi",
     desc: "Freshly made semo with eguisi soup",
-    price: 1500,
+    price: 3500,
     category: "Breakfast",
     tags: ["Breakfast"],
     img: "images/amala and more Main.jpg"
@@ -13,7 +13,7 @@ const MENU_ITEMS = [
     id: 2,
     name: "Plantain & Beans (Ewa Agoyin)",
     desc: "Fried plantain with specially prepared beans",
-    price: 1500,
+    price: 3500,
     category: "Breakfast",
     tags: ["Breakfast"],
     img: "images/ewaagoyinposh.jpg"
@@ -22,7 +22,7 @@ const MENU_ITEMS = [
     id: 3,
     name: "Moi Moi & Bread",
     desc: "Steamed bean pudding with soft bread",
-    price: 1300,
+    price: 4300,
     category: "Breakfast",
     tags: ["Breakfast", "Vegetarian"],
     img: "images/moimoi.jpg"
@@ -31,7 +31,7 @@ const MENU_ITEMS = [
     id: 9,
     name: "Jollof Rice & Chicken",
     desc: "Signature smoky jollof rice with grilled chicken",
-    price: 2500,
+    price: 5000,
     category: "Main Courses",
     tags: ["Main", "Spicy"],
     img: "images/jollofrice.jpg"
@@ -49,7 +49,7 @@ const MENU_ITEMS = [
     id: 11,
     name: "Fufu & Eguisi",
     desc: "Vegetable soup with fufu or akpu",
-    price: 2700,
+    price: 4000,
     category: "Main Courses",
     tags: ["Main"],
     img: "images/fufu and eguisi.jpg"
@@ -58,7 +58,7 @@ const MENU_ITEMS = [
     id: 12,
     name: "Native Jollof",
     desc: "Traditional palm oil jollof with assorted protein(concoction)",
-    price: 2200,
+    price: 5000,
     category: "Main Courses",
     tags: ["Main"],
     img: "images/nativeJollof.jpg"
@@ -67,7 +67,7 @@ const MENU_ITEMS = [
     id: 13,
     name: "Okra Soup & Eba",
     desc: "Fresh okra soup served with eba",
-    price: 2300,
+    price: 4500,
     category: "Main Courses",
     tags: ["Main"],
     img: "images/okraposh.jpg"
@@ -76,7 +76,7 @@ const MENU_ITEMS = [
     id: 14,
     name: "Pepper Soup (Goat/Catfish)",
     desc: "Spicy traditional pepper soup",
-    price: 2000,
+    price: 8000,
     category: "Main Courses",
     tags: ["Main", "Spicy"],
     img: "images/peppersoupposh.jpg"
@@ -85,7 +85,7 @@ const MENU_ITEMS = [
     id: 15,
     name: "Amala Hot Special",
     desc: "Amala, Ewedu + Drink",
-    price: 3000,
+    price: 8000,
     category: "Special Combos",
     tags: ["Special Combos"],
     img: "images/amalafood.jpg"
@@ -94,7 +94,7 @@ const MENU_ITEMS = [
     id: 16,
     name: "Soft Drinks",
     desc: "Assorted chilled soft drinks",
-    price: 500,
+    price: 800,
     category: "Drinks & Beverages",
     tags: ["Drinks"],
     options: ["Coke - ₦500", "Fanta - ₦400", "Sprite - ₦400", "pepsi - ₦400"],
@@ -104,7 +104,7 @@ const MENU_ITEMS = [
     id: 17,
     name: "Bottled Water",
     desc: "Pure bottled water",
-    price: 300,
+    price: 600,
     category: "Drinks & Beverages",
     tags: ["Drinks"],
     options: ["Cold - ₦500", "Normal - ₦300"],
@@ -114,7 +114,7 @@ const MENU_ITEMS = [
     id: 18,
     name: "Zobo Drink",
     desc: "Refreshing hibiscus drink",
-    price: 600,
+    price: 800,
     category: "Drinks & Beverages",
     tags: ["Drinks"],
     img: "images/zoboposh.jpg"
@@ -123,7 +123,7 @@ const MENU_ITEMS = [
     id: 19,
     name: "Chapman",
     desc: "Classic Nigerian cocktail mocktail",
-    price: 1200,
+    price: 1500,
     category: "Drinks & Beverages",
     tags: ["Drinks"],
     img: "https://images.unsplash.com/photo-1514362545857-3bc16c4c7d1b?w=500&q=70&auto=format"
@@ -132,7 +132,7 @@ const MENU_ITEMS = [
     id: 20,
     name: "Palm Wine",
     desc: "Traditional palm wine",
-    price: 1000,
+    price: 2000,
     category: "Drinks & Beverages",
     tags: ["Drinks"],
     img: "https://images.unsplash.com/photo-1510812431401-41d2bd2722f3?w=500&q=70&auto=format"
@@ -347,12 +347,12 @@ function renderHome() {
       <div class="hero-text">
         <div class="hero-badge">Welcome to Amala Hot</div>
         <h1>Smooth Amala / Fresh Foods You<br><span class="accent">Can Trust</span></h1>
-        <p>Experience the best of Nigerian cuisine made with fresh, locally-sourced ingredients. Every bite tells a story of flavor and tradition.</p>
+        <p>Experience the best of Nigerian cuisine made with fresh, locally-sourced ingredients.Think good food, think AMALA HOT.</p>
         <button class="btn-primary" data-page="menu">Order Now →</button>
       </div>
       <div class="hero-visual">
         <div class="hero-circle">
-          ${imgTag("images/entranceAmalaandmore.webp", "Jollof Rice")}
+          ${imgTag("images/Amalahothero.jpg", "Jollof Rice")}
         </div>
         <div class="free-delivery-badge">Free Delivery<br><small>Orders above ₦25,000</small></div>
         <div class="rating-badge">
@@ -713,7 +713,7 @@ function renderContact() {
             <path fill-rule="evenodd"
               d="M1.885.511a1.745 1.745 0 0 1 2.61.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.68.68 0 0 0 .178.643l2.457 2.457a.68.68 0 0 0 .644.178l2.189-.547a1.75 1.75 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.6 18.6 0 0 1-7.01-4.42 18.6 18.6 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877z" />
         </svg>
-      </div><div><h4>Phone</h4><p>+234 704 664 9753</p></div></div>
+      </div><div><h4>Phone</h4><p>08140014460</p></div></div>
       <div class="info-item"><div class="info-icon">
          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
             class="bi bi-envelope-at-fill" viewBox="0 0 16 16">
@@ -863,7 +863,7 @@ document.addEventListener("DOMContentLoaded", () => {
       +
       "*\n\nThen the Restaurant's account let's proceed to payment!"
     );
-    window.open("https://wa.me/2347046649753?text=" + text, "_blank");
+    window.open("https://wa.me/2348140014460?text=" + text, "_blank");
   });
 
   updateCartUI();
